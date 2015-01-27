@@ -1,10 +1,15 @@
 # テクスタ vol.1 Git / GitHub勉強会
 Life is Tech ! テクスタ用レポジトリ
 
+## Slides
+[教材スライド](https://docs.google.com/a/lifeistech.co.jp/presentation/d/1E_y9UWRnvTSkIcQq1On6K7ZabjcLDawaqcoIPRMNumI/htmlpresent)
+
+
 ## Workshop
+
 このレポジトリを右上のボタンから【Fork】 = 自分のアカウントに複製される
 
-ターミナルを起動し、デスクトップへ移動（Change Directly）
+ターミナルを起動し、デスクトップへ移動（Change Directory）
 ```
 cd ~/Desktop
 ```
