@@ -11,44 +11,49 @@ Life is Tech ! テクスタ用レポジトリ
 
 ターミナルを起動し、デスクトップへ移動（Change Directory）
 ```
-cd ~/Desktop
+$cd ~/Desktop
 ```
 
 Forkした自分のレポジトリをclone
 ```
-git clone https://github.com/自分のアカウント/tech_study_git.git
+$git clone https://github.com/自分のアカウント/tech_study_git.git
 ```
 
 ターミナルでcloneしたレポジトリに移動
 ```
-cd ~/Desktop/tech_study_git
+$cd ~/Desktop/tech_study_git
 ```
 
 テキストエディタなどで変更を加える
 
 変更点（スナップショット）を見る
 ```
-git diff
+$git diff
 ```
 
 変更点（スナップショット）をステージング（add）
 ```
-git add .
+$git add .
 ```
 
 現在の状態を確認する
 ```
-git status
+$git status
 ```
 
 バージョン管理に記録するためにコミット ※メッセージは変更内容を簡潔に記載
 ```
-git commit -m "message"
+$git commit -m "message"
+```
+
+変更が登録されたかどうか確認しよう！
+```
+$git log
 ```
 
 自分のGitHubに変更を送信する
 ```
-git push origin master
+$git push origin master
 ```
 
 Pull Requestを作成する
